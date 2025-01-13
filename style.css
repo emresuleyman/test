@@ -116,7 +116,7 @@ html, body {
 
 /* Sayfanın tamamını aşağı kaydırmak için */
 .container {
-    margin-top: 200px;
+    margin-top: 0px;
 }
 
 /* Dil seçici */

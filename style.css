@@ -25,6 +25,7 @@ html, body {
 /* Logoya özel stil */
 .logo-container {
     margin-top: -300px;
+    margin-bottom: -50
 }
 
 .logo-container img {

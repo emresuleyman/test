@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'TriviaSerifBlack';
     src: url('../fonts/Storm-TriviaSerifBlack.otf') format('opentype');
@@ -24,8 +25,13 @@ html, body {
 
 /* Logoya özel stil */
 .logo-container {
-    margin-top: -300px;
-    margin-bottom: -50
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        margin-top: 20px; /* Adjusted for mobile view to prevent clipping */
+    }
 }
 
 .logo-container img {
